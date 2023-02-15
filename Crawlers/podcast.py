@@ -5,7 +5,7 @@ import pandas as pd
 import logging
 
 # %%
-url = 'https://portalcafebrasil.com.br/todos/podcasts/page/{}/?ajax=true'
+url = 'https://portalcafebrasil.com.br/todos/podcasts/page/5/?ajax=true'
 
 # %%
 #puxar o retorno da url
