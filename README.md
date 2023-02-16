@@ -1,5 +1,5 @@
 # Data Engineering
-Projetos e estudos relacionados ao que venho aprendendo como Engenheiro de Dados.
+Projetos e estudos relacionados ao ambiente de Engenharia de Dados.
 
 ### Esse repositório contém estudos e alguns projetos pessoais.
 
