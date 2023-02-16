@@ -7,3 +7,5 @@ Projetos e estudos relacionados ao que venho aprendendo como Engenheiro de Dados
 * WebScraping
 * Consumo de API
 * Scripts em geral
+* Utilização de Docker para containerização
+* Uso de SQL para consultas e análises
