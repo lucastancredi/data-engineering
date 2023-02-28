@@ -1,0 +1,19 @@
+version: "3"
+services: 
+    database:
+        image: postgres
+        container_name: "desafio_container"
+        environment: 
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=desafio_db
+        ports: 
+            - "5432:5432"
+        volumes: 
+            - "./db:/var/lib/postgresql/data/"
+    dash:
+        image: metabase/metabase
+        ports: 
+            - "3000:3000"
+        links:
+            - database
